@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 600px;
+    margin: 30px;
+}
+img {
+    width: 300px;
+    color: white;
+}
+
+.premium img {
+    transform: rotate(-135deg);
+}
+.container-title h1 {
+    text-transform: uppercase;
+    color: wheat;
+    text-align: center;
+    
+}
+.basic {
+    background: rgb(8, 190, 136);
+}
+.standard {
+    background: rgb(247, 175, 42);
+}
+.premium {
+    background: rgb(111, 111, 236);
+}
