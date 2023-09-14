@@ -7,23 +7,32 @@
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    border-radius: 2px;
+    border-radius: 10px;
     height: 600px;
-    margin: 30px;
+    margin: 25px;
 }
 img {
-    width: 300px;
-    color: white;
+    width: 320px;
+    height: 180px;
+    object-fit: contain;
 }
 
 .premium img {
-    transform: rotate(-135deg);
+    transform: rotate(-100deg);
 }
 .container-title h1 {
     text-transform: uppercase;
     color: wheat;
     text-align: center;
-    
+}
+.price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.container-card span {
+    font-size: 20px;
+    transform: translateY(-15px);
 }
 .basic {
     background: rgb(8, 190, 136);
