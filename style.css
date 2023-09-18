@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
@@ -8,8 +9,11 @@
     flex-direction: column;
     border: 1px solid black;
     border-radius: 10px;
-    height: 600px;
+    height: 650px;
     margin: 25px;
+}
+.container-card:hover {
+    transform: scale(1.2);
 }
 img {
     width: 320px;
@@ -32,7 +36,7 @@ img {
 }
 .container-card span {
     font-size: 20px;
-    transform: translateY(-15px);
+    transform: translateY(-10px);
 }
 .basic {
     background: rgb(8, 190, 136);
@@ -42,4 +46,19 @@ img {
 }
 .premium {
     background: rgb(111, 111, 236);
+}
+.container-card li {
+    line-height: 25px;
+    color: darkblue;
+}
+input[type="button"]{
+    margin: 15px auto;
+    width: 50%;
+    height: 50px;
+    color: white;
+    background-color: rgb(44, 16, 16);
+    border-radius: 15px;
+}
+input[type="button"]:hover {
+    background-color: black;
 }
